@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enkel E-Handel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Min Butik</div>
+        <nav>
+            <ul>
+                <li><a href="#">Hem</a></li>
+                <li><a href="#">Produkter</a></li>
+                <li><a href="#">Erbjudanden</a></li>
+                <li><a href="#">Kontakt</a></li>
+            </ul>
+        </nav>
+        <div class="search">
+            <input type="text" placeholder="Sök...">
+            <button onclick="search()">Sök</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="products">
+            <h2>Populära Produkter</h2>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Produkt 1">
+                <h3>Produkt 1</h3>
+                <p>Beskrivning av produkt 1.</p>
+                <p class="price">199 SEK</p>
+                <button>Köp nu</button>
+            </div>
+            <!-- Fler produktkort här -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Min Butik. Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
